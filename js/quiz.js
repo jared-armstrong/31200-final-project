@@ -52,13 +52,13 @@ function submitQuiz() {
         document.getElementById('correctAnswer7').innerHTML = correctAnswer('correctString7', 7);
     }
     if (answerScore('q8') === 0) {
-        document.getElementById('correctAnswer4').innerHTML = correctAnswer('correctString8', 8);
+        document.getElementById('correctAnswer8').innerHTML = correctAnswer('correctString8', 8);
     }
     if (answerScore('q9') === 0) {
-        document.getElementById('correctAnswer3').innerHTML = correctAnswer('correctString9', 9);
+        document.getElementById('correctAnswer9').innerHTML = correctAnswer('correctString9', 9);
     }
     if (answerScore('q10') === 0) {
-        document.getElementById('correctAnswer4').innerHTML = correctAnswer('correctString10', 10);
+        document.getElementById('correctAnswer10').innerHTML = correctAnswer('correctString10', 10);
     }
 
 

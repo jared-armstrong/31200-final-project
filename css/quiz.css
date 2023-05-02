@@ -7,29 +7,35 @@ p.question {
     font-family: Arial, sans-serif;
         font-size:20px;
     color: #2E2E2E;
-    margin-bottom:0px;
+    padding: 25px;
+    margin: auto;
   }
   
   h2.quizHeader {
+    text-align: center;
     font-family: Arial, sans-serif;
-    font-weight:normal;
+    font-weight:bold;
     font-size:25px;
     line-height: 27px;
     margin: 24px 0 12px 0;
-    padding: 0 0 4px 0;
-    border-bottom: 1px solid #a2a2a2;
+    padding: 20px
   }
   
   h2.quizScore{
     font-family: Arial, sans-serif;
     font-size:25px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
   }
   
   div.quizAnswers{
     font-family: Arial, sans-serif;
     font-size:16px;
     color: #424242;
-    padding: 4px 0 4px 0;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
   }
   
   label {
@@ -42,6 +48,16 @@ p.question {
   input.answer[type="radio"] {
     margin-bottom: 10px;
   }
+
+  .finalScore {
+    margin: auto;
+    padding: 10px;
+  }
+
+  .wrongAnswers {
+    margin: auto;
+    padding: 10px;
+  }
   
   input.quizSubmit[type="submit"] {
     --webkit-background-clip: border-box;
@@ -53,7 +69,7 @@ p.question {
     --webkit-transition-timing-function: ease, ease;
     box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px 0px;
     color: #ffffff;
-    background-color: #c30b0a;
+    background-color: dodgerblue;
     margin: 0;
     border: 0;
     outline: 0;
@@ -62,12 +78,13 @@ p.question {
     width:85px;
     border: 1px solid #5E5E5E;
     border-radius:5px;
+    width: 125px;
     
    }
   
   input.quizSubmit[type="submit"]:hover {
-    color: #ffffff;
-    background: #680f11;
+    color: dodgerblue;
+    background: black;
     text-decoration: none;
   }
   
