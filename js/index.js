@@ -36,7 +36,7 @@ function renderStates(states) {
       capitalName.innerText =`Capital: ${state.capital}`
       landMass.innerText = `Land Mass: ${state.landmass}`
       majorIndustry.innerText = `Majory Indutries: ${state.majorindustry}`;
-      touristAttractions.innerText = `Tourist Attractions: ${state.touristattracitons}`;
+      touristAttractions.innerText = `Tourist Attractions: ${state.touristattractions}`;
       statePopulation.innerText = `Population: ${state.population}`;
 
       // used appendChild to make sure all elements are inside the cardColumn div and in cardsContiner id
